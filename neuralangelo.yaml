@@ -10,17 +10,17 @@ dependencies:
   - cudatoolkit-dev
   - cmake
   # python general
-  - python=3.8
+  - python general
   - pip
-  - numpy
-  - scipy
+  # numpy
+  # scipy
   - ipython
-  - jupyterlab
-  - cython
+  # jupyterlab
+  # cython
   - ninja
   - diskcache
   # pytorch
-  - pytorch
-  - torchvision
+  # pytorch
+  # torchvision
   - pip:
     - -r requirements.txt
